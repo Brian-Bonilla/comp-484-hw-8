@@ -13,7 +13,7 @@ black - text/letter color
 body {
     background: whitesmoke;
     margin: 0;
-    
+    padding-top: 60px;
 }
 .content-wrap{
     margin: 0 auto;
@@ -32,6 +32,22 @@ body {
     width: 70%;
     float: left;
     min-height: 225px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: whitesmoke;
+}
+nav a{
+    padding: 15px;
+    display: inline-block;
+
+}
+
+.contact-info i{
+    font-size: 1.5em;
 }
 
 /* Header & Footer 
