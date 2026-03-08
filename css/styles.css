@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+/* Color Palette
+whitesmoke  - section baclground
+black - text/letter color
+#D1D4C9 - main background 
+#3887BE - header and footer
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: whitesmoke;
+    margin: 0;
+    
+}
+.content-wrap{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 50px;
+    overflow: hidden;
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header{
+    background: #29435C ;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+.profile-img{
+    /*width: 300px;
+    float: left;
+    margin-right: 30px;*/
+    border-radius: 50%;
+}
+footer{
+    background: #29435C;
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+h1, h2, h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+h1{
+    font-size: 48px;
+}
+h2{ 
+    font-size: 34px;
+    
+}
+/* Work Experience
+------------------------------------*/
+
+.work{
+    background: #3887BE;
+}
+
+/* Education
+------------------------------------*/
+.education{
+    background: #D1D4C9;
+}
