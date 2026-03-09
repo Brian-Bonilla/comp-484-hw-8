@@ -39,11 +39,14 @@ nav{
     top: 0;
     width: 100%;
     background: whitesmoke;
+    text-align: center;
+    
 }
 nav a{
     padding: 15px;
     display: inline-block;
-
+    color: black;
+    font-size: 25px;
 }
 
 .contact-info i{
@@ -53,7 +56,12 @@ nav a{
 /* Header & Footer 
 ------------------------------------*/
 header{
-    background: #29435C ;
+     background: linear-gradient(
+        rgba(41, 67, 92, 0.8),
+        rgba(41, 67, 92, 0.8)
+    ), url(../images/Central-LA-1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header h1, header h2 {
